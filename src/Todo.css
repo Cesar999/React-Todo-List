@@ -1,0 +1,56 @@
+.Todo{
+    border: 2px solid white;
+    margin: 5px;
+    display: flex;
+}
+
+.Todo button{
+    width: 8%;
+    border: none;
+    color: white;
+}
+
+.Todo button i{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.Todo span{
+    flex-grow: 1;
+    color: white;
+}
+
+.btn-delete{
+    background-color: rgb(214, 69, 69);
+}
+
+.btn-edit{
+    background-color: rgb(52, 148, 177);
+}
+
+.Todo-Form{
+    border: 2px solid white;
+    margin: 5px;
+    display: flex;
+}
+
+.Todo-Form input{
+    flex-grow: 1;
+    font-size: 1.2rem
+}
+
+.Todo-Form button{
+    width: 16%;
+    background-color: rgb(52, 148, 177);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+.not-completed{
+
+}

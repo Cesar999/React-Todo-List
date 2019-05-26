@@ -1,0 +1,21 @@
+.NewTodoForm{
+    border: 2px solid white;
+    margin: 5px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.NewTodoForm input{
+    flex-grow: 1;
+    font-size: 1.2rem;
+}
+
+.NewTodoForm button{
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(54, 173, 54);
+    font-weight: 600;
+    cursor: pointer;
+}
+
